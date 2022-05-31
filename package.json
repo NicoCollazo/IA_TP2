@@ -1,19 +1,24 @@
 {
-  "name": "ia_tp2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NicoCollazo/IA_TP2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NicoCollazo/IA_TP2/issues"
-  },
-  "homepage": "https://github.com/NicoCollazo/IA_TP2#readme"
+    "name": "ia_tp2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "train": "npm main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NicoCollazo/IA_TP2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NicoCollazo/IA_TP2/issues"
+    },
+    "homepage": "https://github.com/NicoCollazo/IA_TP2#readme",
+    "dependencies": {
+        "@tensorflow/tfjs-node-gpu": "^3.18.0",
+        "argparse": "^2.0.1"
+    }
 }
